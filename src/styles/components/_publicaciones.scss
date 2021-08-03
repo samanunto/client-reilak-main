@@ -1,0 +1,457 @@
+.publicaciones{
+    margin-left: auto;
+    margin-right: auto;
+   /* margin-right: 250px;  */
+   background-color: #242526;
+   height: 100%;
+   justify-content: center;
+   width: 43.75em;
+   color: white;
+   border: 1px solid  #18191A;
+   flex-flow: column;
+
+}
+.lista__publicaciones{
+    justify-content: center;
+
+}
+
+.card__publicaciones{
+    justify-content: center;
+    margin: 1.875em;
+    background-color: $fondo-contenido;
+    padding: 0.313em;
+    border-radius: 5px;
+}
+
+.crear__publicacion{
+    text-align: end;
+    margin: 20px 29px 10px  
+}
+
+
+
+.publicaciones__texto{
+    word-wrap: break-word;
+    display: block;
+    color: $texto-secundario;
+    margin: 2px;
+    font-size: 1.1em;
+    line-height: 20px;
+}
+
+.publicaciones__footer{
+    color: $iconos;
+ margin: 0px 2px;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+}
+
+.publicaciones__reaccion{
+
+    margin: 0px 2px;
+    
+    color: $iconos;
+    
+    cursor: pointer;
+}
+
+.crear__titulo-input{
+    outline: none;
+    width: 615px;
+    background-color: $fondo-contenido;
+    border: none;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.crear__contenido-textarea{
+    outline: none;
+    resize: none;
+    width: 450px;
+    height: 75px;
+    background-color: $fondo-contenido;
+    border: none;
+    color: white;
+}
+
+// remodel card publicacion
+.publicaciones__heard{
+    
+    float: inherit;
+    display: grid;
+    margin: 0px 0px -1em 0px;
+    padding: 0px;
+  
+}
+.publicaciones__heard-bottom{
+position: relative;
+bottom:1em;
+}
+.publicaciones__heard-bottom-fecha{
+    padding: 2px;
+    font-size: 0.8em;
+    margin: 2px;
+    color: $tecto-opaco;
+}
+.publicaciones__heard-top{
+ 
+    margin: 0px;
+    padding: 0px;
+}
+.publicaciones__heard-top-titulo{
+    font-weight: bold;
+    font-size: 1.3em;
+    height: 100%;
+    margin: 2px;
+    padding: 2px;
+   color: $texto-principal;
+float: left;
+}
+.publicaciones__heard-top-option{
+float: right;
+position: relative;
+
+border-radius: 100%;
+
+}
+.publicaciones__heard-top-option-btn{
+   text-align: center;
+    border-radius: 50%;
+    background-color: $fondo-contenido;
+    width: 25px;
+    height: 25px;
+    color: $iconos;
+    border: none;
+    &:hover{
+        
+        background-color: rgb(88, 86, 86);
+        cursor: pointer;
+        // .publicaciones__heard-top-option-content{display: block;}
+    }
+}
+.publicaciones__heard-top-option-content{ 
+    display: none;
+    position: absolute;
+
+    background-color: $fondo-contenido;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+   
+}
+.publicaciones__heard-top-option-content-list{  
+    color: $iconos;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    border-bottom:1px white;
+    &:hover{
+        background-color: rgb(88, 86, 86);
+        cursor: pointer;
+    }
+}
+
+.publicaciones__heard-top-option-content-list span {
+    font-weight: normal;
+    color: $texto-secundario;
+}
+.publicaciones__multimedia{
+    width: 100%;
+    height: 100%;
+}
+.no-publicaciones{
+    position: relative;
+    left: 8em;
+    top: 5em;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn__publicar{
+ 
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    color: black;
+    font-weight: bold;
+    background-color: $iconos;
+    padding: 1px 7px;
+    margin: 1em 1em 0em 2em;
+    
+    border-radius: 3px;
+    
+    
+
+    
+
+}
+
+
+.subir__multimedia{
+    color: $iconos;
+    cursor: pointer;
+}
+
+.footer__crear-publicacion{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+}
+
+.modal-fondo{
+    background-color: $fondo-panel;
+    color: white;
+    padding: 1px;
+    border: solid 1px black;
+    width: 650px;
+    left: -75px;
+    
+}
+
+.asa{
+    background-color: red;
+    justify-content: center;
+   
+}
+
+.fontSize__textRich{
+    
+    color: black;
+}
+.fontFamily__textRich{
+    color: black;
+}
+
+.undefined{
+    background-color: $fondo-contenido;
+    height: 250px;
+}
+
+.editor-class{
+    background-color: $fondo-contenido;
+    
+}
+
+#file[type="file"] {
+	display: none;
+}
+.label-holder {
+	width: 100%;
+	
+ 
+  display: grid;
+  place-items: center;
+  
+}
+.label{
+
+  width: 100%;
+  
+  color:$iconos;;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem ;
+  cursor: pointer;
+  
+}
+.result{
+    min-height: 100%;
+    max-height: 20em;
+    width: 100%;
+    background-color: #272c34;
+    margin-top:1rem ;
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+
+  }
+  
+
+
+ .toolbar-class{
+     background-color: $fondo-contenido;
+     border: none;
+ }
+
+/* Modal */
+.ReactModalPortal > div{
+    opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: opacity .2s ease-in-out;
+    z-index: 999;
+}
+
+
+.modal-fondo {
+    background-color: rgba(53, 5, 5, 0.3);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+    opacity: 2;
+}
+
+.modal-publicacion {
+    background: $fondo-panel;
+    border-radius: 5px;
+    color: $texto-principal;
+    display: inline;
+    max-height: 80%;
+    max-width: 675px;
+    outline: none;
+    padding: 10px;
+}
+
+
+/* DatePicker */
+.react-datetime-picker input:focus{
+    outline: none;
+
+}
+
+.react-datetime-picker__wrapper{
+    border: 0px solid;
+    
+}
+
+
+
+.form-modal{
+    
+    background-color: $fondo-contenido;
+    border: none;
+    &:focus{
+        background-color: $fondo-contenido;
+        border: 0;
+        border-style: none;
+        outline: 0;
+        box-shadow: none;
+        color: $texto-secundario;
+    }
+    color: $texto-secundario;
+}
+
+/********************
+My Birthday
+*******************/
+
+.mybirthday{
+    justify-content: center;
+    margin: 1.875em;
+    background-color: $fondo-contenido;
+    border-radius: 5px;
+
+}
+.mybirthday__heard{
+    background-color: #3A3B3C;
+    color: $iconos;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 18px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    border: solid 0.1px #3b3a3a;
+    &:hover{
+        background-color: #3b3a3a;
+    }
+
+}
+.mybirthday__heard img{
+width: 30px;
+}
+.mybirthday__body{
+    transition: all 0.5s ease-out;
+    padding: 10px;
+    max-height: 277px;
+    overflow-y: auto;
+ background-color:$fondo-panel;
+ border: solid 0.1px $fondo;
+ border-radius: 5px;
+    &::-webkit-scrollbar{
+        width: 5px;
+       
+    }
+    &::-webkit-scrollbar-thumb{
+     background-color: $iconos;
+     border-radius: 5px;
+    }
+}
+.mybirthday__body-item{
+    background-color: $fondo-panel;
+    margin-top: 4px;
+    border-radius: 12px;
+    padding:5px 5px 5px 10px;
+    position: relative;
+    &::before{
+        content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  border-radius:12px; 
+  padding:1px; 
+  background:linear-gradient(45deg,rgb(192, 201, 110),rgb(255, 255, 255)); 
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out; 
+  mask-composite: exclude; 
+    }
+ 
+      
+}
+.mybirthday__body-item-bottom{
+    font-weight: 550;
+}
+.mybirthday__body-item-top{
+    display: flex;
+}
+.mybirthday__body-item-top-left img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.mybirthday__body-item-top-right{
+    margin-left: 10px;
+    color: $texto-principal;
+}
+.mybirthday__body-item-top-right-time{
+    color: $tecto-opaco;
+    font-size: 14px;
+}
+.mybirthday__body-item-bottom{
+    color: $texto-secundario;
+    margin-top: 5px;
+}
+
+

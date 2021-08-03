@@ -1,0 +1,63 @@
+.dashboard__content{
+    width: 95%;
+height: 98%;
+margin: auto;
+    background-color: $fondo-panel;
+   
+  
+    
+}
+.dashboard__content-heard{
+    display: flex;
+    width: 100%;
+}
+.dashboard__content-heard-card{
+    background-color: $fondo-panel;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color: $fondo-panel;
+}
+.dashboard__content-heard-card-icon{
+    color: #8400ff;
+}
+.dashboard__content-heard-card-number{
+font-size: 28px;
+color: $texto-principal;
+font-weight: bold;
+}
+.dashboard__content-heard-card-text{
+    color: $texto-principal;
+}
+.dashboard__content-report{
+    display: flex;
+    height: 30%;
+}
+.dashboard__content-repot-left{
+width: 60%;
+height: auto;
+padding: 0px;
+
+}
+.dashboard__content-repot-right{
+    width: 40%;
+    height: auto;
+    padding: 0px 60px;
+
+}
+.dashboard__content-resume{
+    padding: 5px;
+    margin: auto;
+    color: $texto-principal;
+    display: flex;
+height: 1%;
+}
+.dashboard__content-resume-left{
+    text-align: center;
+    margin: auto;
+}
+.dashboard__content-resume-right{
+    text-align: center;
+    margin: auto;
+
+}

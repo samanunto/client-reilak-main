@@ -1,0 +1,627 @@
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    gap: 50px;
+    font-family: sans-serif;
+    //padding-top: 30px;
+}
+//esctructura principal
+.header-tarea{
+    height: 10%;
+    background-color: $fondo-panel;
+    }
+.body-tarea{
+height: 90%;
+}
+.button_tareaa{
+    height: 75%;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cards * {
+    box-sizing: border-box;
+   
+
+}
+
+.confirmado{
+    background-color: rgb(48, 110, 19);
+}
+
+
+.card{
+    margin: 3%;
+    
+}
+
+.card__content {
+    
+    
+    font-size: 0.9em;
+    padding: 15px;
+    background:$fondo-panel;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+ 
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+.card__info {
+    
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555555;
+    background: $fondo-panel;
+    font-size: 0.8em;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.fa-trash{
+    color: $iconos;
+
+}
+.fa-edit{
+    color: $iconos;
+}
+
+
+
+.confirmado{
+    background-color: rgb(62, 88, 50);
+}
+//  modal
+
+
+
+
+
+
+.modal__tarea{
+    overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 7px;
+    background-color: $fondo;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $iconos;
+    border-radius: 5px;
+  }
+    background-color:$fondo-panel;
+    color: $texto-principal;
+    height: 90vh;
+    width: 110vh;
+}
+
+.modal__tarea-head{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal__tarea-head-titulo{
+    margin-left: 10px ;
+
+}
+
+.modal__tarea-body{
+   
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+}
+
+.modal__tarea-body-left{
+    
+    width: 75%;
+    padding: 10px;
+}
+
+.modal__tarea-body-right{
+   background-color: $fondo-contenido;
+    width: 25%;
+}
+
+.modal__tarea-body-left-attached-iteam{
+    display: flex;
+    padding: 5px;
+}
+
+.modal__tarea-body-left-attached-iteam-left img{
+    width: 130px;
+    height: 130px;
+
+}
+.modal__tarea-body-right-content-title{
+    font-weight: bold;
+}
+.modal__memberTarea-head-title{
+    font-weight: bold;
+}
+
+.modal__tarea-body-left-comment{
+    padding: 10px;
+}
+.modal__tarea-body-left-comment-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.modal__tarea-body-left-comment-input{
+    display: flex;
+}
+
+.modal__tarea-body-left-comment-input-img img{
+width: 40px; 
+height: 40px;
+border-radius: 50%;
+}
+.modal__tarea-body-left-comment-input-img{
+    width: 10%;
+}
+.modal__tarea-body-left-comment-input-content{
+    width: 90%;
+}
+.modal__tarea-body-left-comment-input-content input{
+    width: 100%;
+}
+
+.modal__tarea-body-left-comment-list-item{
+    display: flex;
+}
+.modal__tarea-body-left-comment-list-item-img img{
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+}
+.modal__tarea-body-left-comment-list-item-img{
+    width: 10%;
+}
+
+.modal__tarea-body-left-comment-list{
+    margin-top: 10px;
+    
+}
+.modal__tarea-body-left-comment-list-item-info{
+    background-color: $fondo-contenido;
+    width: 90%;
+}
+
+
+.modal__tarea-body-right-content{
+    height: 70%;
+}
+
+.modal__tarea-body-right-content-btn button{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    color: black;
+    font-weight: bold;
+    background-color: $iconos;
+    padding: 1px 7px;
+    margin: 1em 1em 0em 2em;
+    
+    border-radius: 3px;
+}
+
+.modal__tarea-body-right-content-list-item-img{
+    padding-right: 10px;
+}
+
+.modal__tarea-body-right-content-list-item-img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.modal__tarea-body-right-content{
+    padding: 10px;
+}
+.modal__tarea-body-right-content-list-item{
+    display: flex;
+
+
+}
+.modal__memberTarea{
+    padding: 10px;
+
+    height: 500px;
+
+}
+.modal__memberTarea-body-item-user{
+    padding-left: 5%;
+}
+.modal__memberTarea-body-item-img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+.modal__memberTarea-body-item{
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+
+.modal__memberTarea-btn{
+    padding-top: 99%;
+}
+.modal__memberTarea-btn button{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    color: black;
+    font-weight: bold;
+    background-color: $iconos;
+    padding: 1px 7px;
+    margin: 1em 1em 0em 2em;
+    
+    border-radius: 3px;
+    
+}
+
+.modal__memberTarea-head-input input{
+    border: none;
+    background: $fondo-panel;
+    //display: block;
+    margin: 2px ;
+    text-align: center;
+    padding: 4% 2%;
+    width: 98%;
+   
+   
+    color: $texto-principal;
+}
+
+
+
+.modal__tarea-body-left-comment-input-content input{
+    border: none;
+    background: $fondo-contenido;
+    //display: block;
+    margin: 2px ;
+    text-align: center;
+    padding: 4% 2%;
+    width: 98%;
+   
+   
+    color: $texto-principal;
+}
+
+.modal__tarea-body-left-descripcion-input textarea{
+    border: none;
+    background: $fondo-contenido;
+    //display: block;
+    margin: 2px ;
+    text-align: center;
+    padding: 4% 2%;
+    width: 98%;
+   
+   
+    color: $texto-principal;
+}
+
+.modal__tarea-body-left-vencimiento DatePicker{
+    border: none;
+    background: $fondo-contenido;
+    //display: block;
+    margin: 2px ;
+    text-align: center;
+    padding: 4% 2%;
+    width: 98%;
+   
+   
+    color: $texto-principal;
+}
+.crear_tarea{
+   
+    width: 400px;
+    height: 600px;
+    color: $texto-principal;
+    background-color: $fondo-contenido;
+    margin: 0%;
+    text-align: center;
+    
+}
+.tarea_fecha{
+   
+    border: none;
+    background: $fondo-panel;
+   // display: block;
+    margin: 5% ;
+   
+    text-align: center;
+    padding: 4% 2%;
+    width: 90%;
+    outline: none;
+    color: $texto-principal;
+    font-weight: 500px;
+    
+   resize: none;
+
+
+
+}
+.input_tarea{
+    border: none;
+    background: $fondo-panel;
+    //display: block;
+    margin: 2% ;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 4% 2%;
+    width: 95%;
+
+
+   
+   
+    color: $texto-principal;
+    font-weight: 500;
+    outline: none;
+    resize: none;
+
+
+
+}
+.button_tarea{
+    border: none;
+    background: $iconos;
+    display: block;
+    margin: 30% auto;
+    text-align: center;
+    padding: 4% 2%;
+    width: 55%;
+    outline: none;
+    color: $fondo-contenido;
+    font-weight: 100;
+    border-radius: 24px;
+    cursor: pointer;
+    &:hover{
+        background: $texto-principal;
+    }
+}
+.tarea_fecha_editar{
+    border: none;
+    background: $fondo-panel;
+   // display: block;
+    margin: 5% ;
+    
+    text-align: center;
+    padding: 4% 2%;
+    width: 90%;
+    outline: none;
+    color: $texto-principal;
+    font-weight: 500px;
+    
+   resize: none;
+
+
+
+}
+.input_tarea_editar{
+    border: none;
+    background: $fondo-contenido;
+    //display: block;
+    margin: 2% ;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 4% 2%;
+    width: 30%;
+
+
+   
+   
+    color: $texto-principal;
+    font-weight: 100;
+    outline: none;
+    resize: none;
+
+
+
+}
+.button_tarea_editar{
+    border: none;
+    background: $iconos;
+    //display: block;
+    margin: 5% auto;
+    text-align: center;
+    padding: 4% 2%;
+    width: 15%;
+    outline: none;
+    color: $fondo-contenido;
+    font-weight: 100;
+    border-radius: 24px;
+    cursor: pointer;
+    &:hover{
+        background: $texto-principal;
+    }
+}
+.container_tarea{
+
+    background-color:$fondo-panel;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 0%;
+
+    display: flex;
+
+
+    .table_tarea{
+        border:solid 1px white;
+    }
+
+    tr,th,td{
+        border:solid 1px white;
+    }
+
+    .fa-edit{
+        margin-left: 15%;
+    }
+
+    .fa-check{
+        margin-left: 15%;
+        color: aquamarine;
+    }
+
+    .fa-trash{
+        margin-left: 15%;
+    }
+    .fa-times{
+        margin-left: 15%;
+        color: red;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    // .crear_tarea{
+    //     width: 50%;
+    //     height: 70%;
+    //     color: $texto-principal;
+    //     background-color: $fondo-contenido;
+    //     margin: 1%;
+    //     text-align: center;
+    // }
+
+    .listar_tarea{
+        overflow-y: auto;
+        max-width: 95%;
+        max-height: 650px; 
+        color: $texto-principal;
+        background-color: $fondo-contenido;
+        margin: 1%;
+    }
+    
+
+    .titulo_tarea{
+        text-align: center
+
+    }
+
+    .color_estado{
+        color: aquamarine;
+    }
+
+    .t{
+        width: 15%;
+    }
+    .o{
+        width: 15%;
+    }
+    .f{
+        width: 20%;
+    }
+    .c{
+        width: 50%;
+    }
+
+    .tarea_fecha{
+        border: none;
+        background: $fondo-panel;
+       // display: block;
+        margin: 5% ;
+        
+        text-align: center;
+        padding: 4% 2%;
+        width: 90%;
+        outline: none;
+        color: $texto-principal;
+        font-weight: 500px;
+        
+       resize: none;
+
+
+
+    }
+
+
+
+    .input_tarea{
+        border: none;
+        background: $fondo-panel;
+        display: block;
+        margin: 5px ;
+        text-align: center;
+        padding: 4% 2%;
+        width: 98%;
+       
+       
+        color: $texto-principal;
+        font-weight: 500;
+        outline: none;
+        resize: none;
+
+
+
+    }
+    .button_tarea{
+        border: none;
+        background: $iconos;
+        display: block;
+        margin: 5% auto;
+        text-align: center;
+        padding: 4% 2%;
+        width: 10%;
+        outline: none;
+        color: $fondo-contenido;
+        font-weight: 100;
+        border-radius: 24px;
+        cursor: pointer;
+        &:hover{
+            background: $texto-principal;
+        }
+    }
+
+
+
+
+
+}

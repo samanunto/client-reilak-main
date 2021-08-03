@@ -1,0 +1,34 @@
+.aside{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #242526;
+    flex-direction: column;
+    height: 93vh;
+    width: 16.875em;
+    color: white;
+    border: 1px solid  #18191A;
+
+}
+
+.listado{
+    list-style: none;
+    
+}
+.botones{
+    list-style: none;
+    color: white;
+    margin: 35px;
+    size: 500px;
+}
+
+.li{
+    text-decoration: none;
+    color:$iconos;
+
+    font-size: 20px;
+    &:hover {
+        color: white;
+
+      }
+}

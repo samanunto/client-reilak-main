@@ -1,0 +1,149 @@
+//MODAL
+.modal-resumenusuario-ysm {
+    width: 100%;
+    height: 80%;
+}
+
+//CONTAINER PRINCIPAL
+.container-resumenusuario-ysm {
+    width: 100%;
+    height: 100%;
+}
+
+//TITULO
+.titulo-resumenusuario-ysm {
+    height: 30%;
+    width: 100%;
+}
+
+.img-container-resumenusuario-ysm {
+    height: 100%;
+    width: 35%;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-titulo-resumenusuario-ysm {
+    height: 100%;
+    width: 100%;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $fondo-contenido;
+    border-radius: 10px;
+    border: white;
+    border-width: 20px;
+}
+
+//IMAGEN
+.img-resumenusuario-ysm {
+    border-radius: 50%;
+    width: 70%;
+    height: 80%;
+}
+
+.titulo-container-resumenusuario-ysm {
+    height: 100%;
+    width: 60%;
+    float: right;
+}
+
+.container-titulo-resumenusuario-ysm {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    float: right;
+    background-color: $fondo-contenido;
+}
+
+.subtituloprincipal-titulo-resumenusuario-ysm {
+    height: 40%;
+    width: 100%;
+    color: white;
+    margin: 2%;
+}
+
+.subtitulo-titulo-resumenusuario-ysm {
+    height: 40%;
+    width: 100%;
+    color: white;
+    margin: 2%;
+}
+
+.dato-titulo-resumenusuario-ysm {
+    height: 60%;
+    width: 100%;
+    color: white;
+    font-size: x-large;
+    margin: 2%;
+}
+
+.label-titulo-resumenusuario-ysm {
+    height: 50%;
+    width: 100%;
+}
+
+//BODY
+.body-resumenusuario-ysm {
+    height: 60%;
+    width: 100%;
+}
+
+//TEXTO
+.apartado-body-resumenusuario-ysm {
+    height: 33%;
+    width: 100%;
+}
+
+.label-body-resumenusuario-ysm {
+    height: 100%;
+    width: 33%;
+    float: left;
+}
+
+.datopequeño-titulo-resumenusuario-ysm {
+    height: 60%;
+    width: 100%;
+    color: white;
+    font-size: large;
+    margin: 2%;
+}
+
+.nombreapartado-titulo-resumenusuario-ysm {
+    height: 20%;
+    width: 100%;
+    color: white;
+}
+
+.container-body-resumenusuario-ysm {
+    border-radius: 10px;
+    background-color: $fondo-contenido;
+    height: 80%;
+    width: 100%;
+    color: white;
+}
+
+.labelcompartido-body-resumenusuario-ysm {
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+
+.labelsolo-body-resumenusuario-ysm {
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+
+.compartidos-body-resumenusuario-ysm {
+    height: 100%;
+    width: 50%;
+    float: left;
+}

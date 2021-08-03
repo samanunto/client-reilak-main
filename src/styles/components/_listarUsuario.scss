@@ -1,0 +1,34 @@
+.tabla-contenedor-lu {
+    background-color: $fondo-panel;
+    overflow-y: scroll;
+    height: 82vh;
+}
+
+.btn-lu {
+    width: 130px;
+}
+
+.cabezera-lu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.label-opaco {
+    color: $tecto-opaco;
+}
+
+.texto-principal {
+    color: $texto-principal;
+}
+
+.btnBuscar {
+    background-color: $fondo-contenido;
+}
+
+.permiso-buscar-lu {
+    padding-top: 24px;
+}
+
+.iconos-lu {
+    color: $iconos;
+}

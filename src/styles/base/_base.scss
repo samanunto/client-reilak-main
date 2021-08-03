@@ -1,0 +1,24 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    
+    height: 100vh;
+    width: auto;
+    overflow-x: hidden; //revisar
+    background-color: $fondo;
+    &::-webkit-scrollbar{
+        width: 9px;
+       
+    }
+    &::-webkit-scrollbar-thumb{
+     background-color: $iconos;
+     border-radius: 5px;
+    }
+    ::-moz-selection { color: white;  background: red; }
+    ::selection      { color: white;  background: red; }
+
+}

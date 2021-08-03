@@ -1,0 +1,268 @@
+// ----------------||CONTENEDOR PRINCIPAL FORM||------------------
+.contenedor-usuario-ysm {
+    height: 70%;
+    width: 40%;
+    background-color: $fondo-panel;
+    border-radius: 2%;
+    margin: auto;
+}
+
+// ----------------||HEADER||------------------
+.header-usuario-ysm {
+    height: 10%;
+    width: 100%;
+    background-color: $fondo-contenido;
+}
+
+.titulo-usuario-ysm {
+    height: 100%;
+    width: 100%;
+    color: $texto-principal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+// ----------------||BODY||------------------
+// ||FORM||----------------------------------
+.form-usuario-ysm {
+    display: none;
+}
+
+// ||BODY||----------------------------------
+.body-usuario-ysm {
+    height: 80%;
+    width: 100%;
+}
+
+.input-contenedor-usuario-ysm {
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-usuario-ysm {
+    height: 40%;
+    width: 60%;
+    border-radius: 8px;
+    background-color: $fondo-contenido;
+    color: $texto-principal;
+}
+
+.input-usuario-ysm::placeholder {
+    text-align: center;
+}
+
+// ----------------||STEPPER||------------------
+.stepbtn-usuario-ysm {
+    height: 20%;
+    width: 100%;
+    background-color: $fondo-contenido;
+}
+
+// ||IZQUIERDA||----------------------------------
+.izquierda-stepbtn-ysm {
+    height: 100%;
+    width: 20%;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flecha-izquierda-icono {
+    color: $iconos;
+    cursor: pointer;
+}
+
+.flecha-izquierda-icono:hover {
+    opacity: .5;
+    padding-right: 5%;
+}
+
+.flecha-izquierda-icono-inactivo {
+    color: $fondo-panel;
+}
+
+// ||DERECHA||----------------------------------
+.derecha-stepbtn-ysm {
+    height: 100%;
+    width: 20%;
+    float: right;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flecha-derecha-icono {
+    color: $iconos;
+    cursor: pointer;
+}
+
+.flecha-derecha-icono:hover {
+    opacity: .5;
+    padding-left: 5%;
+}
+
+.flecha-izquierda-icono-inactivo {
+    color: $fondo-panel;
+}
+
+// ||CENTRAL||----------------------------------
+.submitpbtn-usuario-ysm {
+    height: 100%;
+    width: 60%;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-submitbtn-usuario-ysm {
+    border-radius: 4px;
+    background-color: $iconos;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    padding: 5%;
+    width: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5%;
+}
+
+.btn-submitbtn-usuario-ysm span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-submitbtn-usuario-ysm span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-submitbtn-usuario-ysm:hover span {
+    padding-right: 12%;
+}
+
+.btn-submitbtn-usuario-ysm:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.container-step-ysm {
+    position: relative;
+    width: 50%;
+    margin: 280px auto;
+    padding: 20px 40px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+}
+
+.loading-step-ysm {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background: #f1f1f1;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.loading-step-ysm:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: load;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: $fondo-panel;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: $fondo-contenido;
+    color: #fff;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {}
+
+// .load1 {
+//     width: 0;
+//     background: #a28089;
+// }
+// .load2 {
+//     width: 40%;
+//     background: #a0d2eb;
+// }
+// .load3 {
+//     width: 60%;
+//     background: #ffa8b6;
+// }
+// .load4 {
+//     width: 75%;
+//     background: #d0bdf4;
+// }
+// .load5 {
+//     width: 100%;
+//     background: #494d5f;
+// }
+// @keyframes load {
+//     0% {
+//         width: 0;
+//         background: #a28089;
+//     }
+//     25% {
+//         width: 40%;
+//         background: #a0d2eb;
+//     }
+//     50% {
+//         width: 60%;
+//         background: #ffa8b6;
+//     }
+//     75% {
+//         width: 75%;
+//         background: #d0bdf4;
+//     }
+//     100% {
+//         width: 100%;
+//         background: #494d5f;
+//     }
+// }

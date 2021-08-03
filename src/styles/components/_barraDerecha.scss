@@ -1,0 +1,251 @@
+.barra_derecha {
+    position: relative;
+    width: 300px;
+}
+/************************
+CUMPLEAÑOS
+************************/
+.cumpleaños {
+    background-color: #242526;
+    color: white;
+    border: 1px solid #18191A;
+    // padding-bottom: 15px;
+    width: 100%;
+}
+.cumpleaños__header{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  background-color: $fondo-contenido;
+}
+.cumpleaños__header img{
+width: 30px;
+height: auto;
+}
+.cumpleaños__body-item{
+background-color: $fondo-panel;
+padding: 10px;
+border-radius: 5px;
+text-align: center;
+&:hover{
+    background-color: #47494b;
+}
+}
+.cumpleaños__body{
+max-height: 290px;
+overflow-y: auto;
+&::-webkit-scrollbar{
+    width: 5px;
+   
+}
+&::-webkit-scrollbar-thumb{
+ background-color: $iconos;
+ border-radius: 5px;
+}
+}
+.cumpleaños__body-item-top img{
+
+width: 50px;
+height: 50px;
+border-radius: 50%;
+}
+.btn__felicitar{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background-color: $iconos;
+    padding: 1px 7px;
+    // margin: 1em 1em 0em 2em;
+    float:none;
+	text-align:center;
+
+    
+    border-radius: 3px;
+}
+/*****************************
+MODAL FELICITAR
+***************************/
+.birthday__modal{
+    background-color: $fondo-panel;
+    color: $texto-principal;
+    min-width: 450px;
+}
+.birthday__modal-header{
+    font-size: 17px;
+    font-weight: bold;
+}
+.birthday__modal-body input{
+    outline: none;
+    border:none;
+    width: 100%;
+    background-color: $fondo-contenido;
+    color: $texto-secundario;
+    margin: 7px 0 7px 0;
+}
+.birthday__modal-footer{
+    float: right;
+    clear: both;
+}
+.birthday__modal-btn{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background-color: $iconos;
+    padding: 1px 7px;
+    // margin: 1em 1em 0em 2em;
+    float:none;
+	text-align:center;
+    &:hover{
+        background-color: rgb(216, 212, 212);
+    }
+    margin: 1px;
+    
+    border-radius: 2px;
+}
+.nobirthdays{
+    text-align: center;
+    margin: 7px;
+    font-size: 17px;
+}
+// .card__cumpleaños {
+//     padding: 10px
+// }
+
+// .lista__cunpleaños {
+//     justify-content: center;
+// }
+
+// .usuario__cumpleaño-deldia {
+//     position: relative;
+//     justify-content: center;
+//     text-align: center;
+//     margin-top: 20px;
+//     background-color: $fondo-contenido;
+//     padding-bottom: 5px;
+// }
+
+// .imagen {
+//     margin-left: 110px;
+//     background-color: $fondo-panel;
+//     border-radius: 100px;
+//     width: 70px;
+//     height: 70px;
+// }
+
+// .fa-user {
+//     margin-top: 9px;
+//     text-align: center;
+//     align-items: center;
+// }
+
+// .cupleaños__titulo {
+//     text-align: center;
+//     margin-right: 20px;
+//     background-color: $fondo-contenido;
+//     width: 100%;
+//     font-size: 20px;
+// }
+/************************
+EVENTOS CERCANOS
+************************/
+.eventos {
+    margin-top: 10px;
+    background-color: $fondo-panel;
+    color: white;
+}
+
+.evento__fecha {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.evento__detalle {
+    display: flex;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: $fondo-contenido;
+    margin-right: 20px;
+}
+
+.fecha__cumpleaño {
+    color: $tecto-opaco;
+    font-size: 15px;
+}
+
+// PROXIMOS EVENTOS
+.proximos-eventos {
+    background-color: $fondo-panel;
+}
+
+.titulo-eventos {
+    text-align: center;
+    color: white;
+    background-color: $fondo-contenido;
+    font-size: 20px;
+}
+
+.mes-eventos {
+    color: white;
+    text-align: center;
+}
+
+.espacio-eventos {
+    padding: 5px;
+}
+
+.fondo-descripcion-eventos {
+    background-color: $fondo-contenido;
+}
+
+.descripcion-eventos {
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.numerojodido {
+    left: 0.5vh;
+    bottom: 2.8vh;
+}
+
+.dia {
+    position: relative;
+}
+
+.tit-eventos {
+    padding-top: 1vh;
+}
+
+.icono-eventos {
+    padding-top: 0.5vh;
+    right: 1vh;
+}
+
+.icono-cal {
+    left: 0.009rem;
+    position: relative;
+}
+
+.espacio-evento {
+    padding: 12px;
+}

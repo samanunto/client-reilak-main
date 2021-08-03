@@ -1,0 +1,463 @@
+// ----------------||CONTENEDORES PRINCIPALES||------------------
+.contenedor-crud-eventos-ysm {
+    height: 85%;
+    width: 55%;
+    background-color: $fondo-panel;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.contenedor-lista-eventos-ysm {
+    height: 85%;
+    width: 20%;
+    background-color: $fondo-panel;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+// ----------------||HEADERS||------------------
+.header-crud-eventos-ysm {
+    height: 10%;
+    width: 100%;
+    background-color: $fondo-contenido;
+}
+
+.titulo-crud-eventos-ysm {
+    height: 100%;
+    width: 100%;
+    color: $texto-principal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+// ----------------||BODY||------------------
+// ||FORM||----------------------------------
+.form-eventos-ysm {
+    display: none;
+}
+
+// ||BODY||----------------------------------
+.body-crud-eventos-ysm {
+    height: 90%;
+    width: 100%;
+}
+
+.input-contenedor-eventos-ysm {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-eventos-ysm {
+    height: 40%;
+    width: 60%;
+    border-radius: 8px;
+    background-color: $fondo-contenido;
+    color: $texto-principal;
+}
+
+.input-eventos-ysm::placeholder {
+    text-align: center;
+}
+
+// ----------------------------------||BUTTON||
+.btn-submitbtn-usuario-ysm {
+    border-radius: 4px;
+    background-color: $iconos;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    padding: 5%;
+    width: 30%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5%;
+}
+
+.btn-submitbtn-usuario-ysm span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.btn-submitbtn-usuario-ysm span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.btn-submitbtn-usuario-ysm:hover span {
+    padding-right: 12%;
+}
+
+.btn-submitbtn-usuario-ysm:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+//CARDS
+.contenedor-card-listaeventos-eventos-ysm {
+    height: 40%;
+    width: 80%;
+    max-height: 100%;
+    max-width: 100%;
+    border: black;
+    padding-top: 10%;
+}
+
+//ListaEventos
+.body-listaeventos-eventos-ysm {
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.card-eventos-ysm {
+    height: 100%;
+    width: 100%;
+    border-radius: 9px;
+    border: black;
+    margin-left: 12%;
+}
+
+.card-eventos-ysm:hover {
+    border-radius: 9px;
+    border: black;
+    height: 105%;
+    width: 105%;
+    margin-left: 9%;
+}
+
+
+/* HEADER */
+
+.header-card-eventos-ysm {
+    height: 20%;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: $fondo-contenido;
+    color: $texto-principal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-card-eventos-ysm {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* BODY */
+
+.body-card-eventos-ysm {
+    height: 55%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parrafo-card-eventos-ysm {
+    margin: auto;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 200);
+}
+
+//FOOTER
+.footer-card-eventos-ysm {
+    background-color: $fondo-contenido;
+    height: 25%;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.izquierda-footer-card-eventos-ysm {
+    height: 100%;
+    width: 20%;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+//MITAD
+.mitad-footer-card-eventos-ysm {
+    height: 100%;
+    width: 60%;
+    float: left;
+    color: $texto-principal;
+    border-radius: 2%;
+}
+
+.fechainicio-mitad-footer-eventos-ysm {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fechafin-mitad-footer-eventos-ysm {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.derecha-footer-card-eventos-ysm {
+    height: 100%;
+    width: 20%;
+    float: right;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+//ICONOS EVENTOS
+.iconos-eventos-ysm {
+    cursor: pointer;
+}
+
+.iconos-eventos-ysm:hover {
+    font-size: 125%;
+}
+
+//ELECCION EVENTOS REUNIONES
+.card1-eleccion-ysm {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    float: left;
+    background-color: $fondo-contenido;
+    color: $texto-principal;
+}
+
+.card1-eleccion-ysm:hover {
+    margin-bottom: 10%;
+}
+
+.card2-eleccion-ysm {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    float: right;
+    background-color: $fondo-contenido;
+    color: $texto-principal;
+}
+
+.titulo-eleccion-ysm {
+    height: 30%;
+    width: 80%;
+    float: right;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.icono-eleccion-ysm {
+    height: 30%;
+    width: 80%;
+    font-size: x-large;
+    margin: auto;
+    float: right;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-eleccion-ysm:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-eventos {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-card-eleccion-ysm {
+    margin: auto;
+    width: 80%;
+    height: 40%;
+}
+
+.espacios-body-eventos-ysm {
+    height: 30%;
+    width: 100%;
+}
+
+//MODAL
+.modal-eventos-ysm {
+    height: 60%;
+    width: 30%;
+    background-color: $fondo-panel;
+    border-radius: 5px;
+}
+
+.titulo-modal-ysm {
+    height: 15%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: $fondo-contenido;
+    color: texto-principal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $texto-principal;
+}
+
+.agregados-modal-ysm {
+    height: 20%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.lista-modal-ysm {
+    height: 55%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button-modal-ysm {
+    height: 10%;
+    width: 100%;
+    display: grid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.si-integrante-modal-ysm {
+    height: 60%;
+    width: 90%;
+    color: texto-principal;
+    margin: auto;
+}
+
+.no-integrante-modal-ysm {
+    height: 56%;
+    width: 90%;
+    border-radius: 50px;
+    color: texto-principal;
+    background-color: $fondo-contenido;
+    margin: auto;
+    cursor: pointer;
+}
+
+.img-integrante-ysm {
+    height: 100%;
+    width: 20%;
+    border-radius: 50%;
+    background-color: green;
+    float: left;
+    font-size: small;
+    color: $texto-principal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-integrantes-eventos {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.nombre-integrante-ysm {
+    height: 100%;
+    width: 80%;
+    float: right;
+    font-size: small;
+    color: $texto-principal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+//BUTTON
+.btn__felicitar {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background-color: $iconos;
+    padding: 1px 7px;
+    // margin: 1em 1em 0em 2em;
+    float: none;
+    text-align: center;
+    border-radius: 3px;
+}
